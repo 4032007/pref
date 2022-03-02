@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>title</title> 
+	<meta name="description" content="" /> 
+	<meta name="keywords" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" />
+	<link rel="stylesheet" href="template_styles.css" type="text/css" />
+	<script src="js/jquery.fancybox.min.js"></script>
+</head>
+<body>
+    
+	<div class="main">
+		<header>
+        	<div class="logo"><img src="images/logo.png" alt="" /></div>
+        </header>
+        
+        <div class="content">
+        	<div class="in-main-page">
+                <div class="title-page">
+                    Новый проект<br>
+                    скоро 
+                </div>
+                
+                <div class="but-page"><a data-fancybox href="#pop">Узнать первым</a></div>
+            </div>
+        </div>
+	</div><!--main-->
+	
+<!--*******************footer************************-->
+	<footer>
+		<div class="cont-f">
+			<div class="insta"><a href="#">progress_dk</a></div>
+		</div>
+	</footer>
+    
+    
+    <div style="display:none">
+        <div id="pop" class="pop-app">
+            <div class="close"></div>
+            <div class="title-pop">Оставь свои контакты,<br> менеджер свяжется с тобой</div>
+            <form>
+                <div class="field">
+                    <label>Ваше имя</label>
+                    <input type="text" placeholder="Ваше имя" />
+                </div>
+                <div class="field">
+                    <label>Телефон</label>
+                    <input type="text" placeholder="Телефон" />
+                </div>
+                <div class="field">
+                    <label>E-mail</label>
+                    <input type="text" placeholder="E-mail" />
+                </div>
+                <div class="assets">
+                    <input id="check" type="checkbox" />
+                    <label for="check">Нажимая кнопку &laquo;Отправить&raquo;, ты даешь согласие на обработку персональных данных</label>
+                </div>
+                <div class="button"><button type="submit">Отправить</button></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
